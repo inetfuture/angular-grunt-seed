@@ -1,0 +1,12 @@
+# Third party dependencies
+node_modules/
+bower_components/
+
+# Build output
+.tmp/
+dist/
+
+# IDE/Editor/OS/Tool files
+*.sublime-workspace
+.DS_Store
+npm-debug.log

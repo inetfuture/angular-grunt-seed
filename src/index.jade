@@ -1,0 +1,34 @@
+doctype html
+html(ng-app="app")
+  head
+    title ANGULAR GRUNT SEED
+
+    base(href="/")
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no")
+    meta(name="apple-mobile-web-app-capable" content="yes")
+    meta(name="apple-mobile-web-app-status-bar-style" content="default")
+    meta(name="format-detection" content="telephone=no")
+
+    // build:css(./) deps.css
+    // endbuild
+
+    // build:css main.css
+    link(rel="stylesheet" href="boot/boot.css")
+    // endbuild
+
+  body.index(ui-view)
+
+    // build:js(./) deps.js
+    script(src="bower_components/lodash/lodash.js")
+    script(src="bower_components/angular/angular.js")
+    script(src="bower_components/angular-ui-router/release/angular-ui-router.js")
+    script(src="bower_components/restangular/dist/restangular.js")
+    script(src="bower_components/angular-loading-bar/build/loading-bar.js")
+    // endbuild
+
+    // build:js main.js
+    //- For grunt-angular-file-loader
+    // angular
+    // endangular
+    // endbuild
